@@ -11,7 +11,7 @@ public class No007 {
 	public static void main(String[] args) {
 		String[] ar = {"*","**","***","****","*****"};
 		for(String s : ar) {
-			System.out.println(s);
+			System.out.println(s) ;
 		}
 	}
 }
