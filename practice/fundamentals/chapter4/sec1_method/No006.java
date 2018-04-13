@@ -5,5 +5,10 @@ package fundamentals.chapter4.sec1_method;
  * ※配列の要素数や値は任意とする
  */
 public class No006 {
-
+	public static void main(String[] args) {
+		salay(10,20,30);
+	}
+	public static void salay(int num1,int num2,int num3) {
+		System.out.println(num1 + num2 + num3);
+	}
 }

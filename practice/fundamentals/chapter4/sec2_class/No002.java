@@ -5,5 +5,14 @@ package fundamentals.chapter4.sec2_class;
  * また、No002クラスのmainメソッド内で車クラスをインスタンス化し、定義したメソッドを使用してみてください。
  */
 public class No002 {
-
+	public static void main(String[] args) {
+		Car car = new Car();
+	}
+public class Car {
+	String run = "走る機械";
+	
+	public static void fast(){
+		
+	}
+}
 }

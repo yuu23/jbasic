@@ -4,5 +4,10 @@ package fundamentals.chapter4.sec2_class;
  * ※クラス名などは任意とする
  */
 public class No001 {
+	public static void main(String[] args) {
+		Test test = new Test();
+	}
+	public class Test() {
 
+	}
 }

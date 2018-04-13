@@ -5,5 +5,14 @@ package fundamentals.chapter4.sec1_method;
  * ※80点以上で合格とする。
  */
 public class No004 {
-
+	public static void main(String[] args) {
+		test(79);
+	}
+	public static void test(int x) {
+		if(x >= 80) {
+			System.out.println("合格");
+		}else{
+			System.out.println("不合格");
+		}
+	}
 }

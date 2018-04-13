@@ -6,10 +6,11 @@ package fundamentals.chapter2.sec6_if;
 public class No001 {
 	public static void main(String[] args) {
 		int x = 1;
-		boolean b;
 
 		if(x == 1) {
-			System.out.println(b);
+			System.out.println(true);
+		}else {
+			System.out.println(false);
 		}
 	}
 }

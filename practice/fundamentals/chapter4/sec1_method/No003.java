@@ -4,5 +4,15 @@ package fundamentals.chapter4.sec1_method;
  * mainメソッドからそのメソッドを使用していくつか日付を表示させてください。
  */
 public class No003 {
+	public static void main(String[] args) {
+	int year,month,day;
 
+	ymd(2018,1,6);
+	ymd(2017,12,1);
+	ymd(2001,4,2);
+}
+	public static void ymd(int year,int month,int day) {
+
+		System.out.println(year + "年" + month + "月" + day + "日");
+	}
 }
