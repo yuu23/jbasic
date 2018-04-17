@@ -5,6 +5,19 @@ package fundamentals.chapter4.sec2_class;
  * メソッドとして面積を返すメソッドを定義してください。
  * No003クラスのmainメソッドで四角形クラスをインスタンス化し、面積を表示させるプログラムを作成してください。
  */
-public class No003 {
+class  Quadrangle {
+	int length;
+	int side;
 
+	void Disp() {
+		System.out.println(length * side);
+	}
+}
+public class No003 {
+	public static void main(String[] args) {
+		Quadrangle q = new Quadrangle();
+		q.length = 5;
+		q.side = 5;
+		q.Disp();
+	}
 }

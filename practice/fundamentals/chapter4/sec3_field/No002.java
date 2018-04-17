@@ -4,5 +4,17 @@ package fundamentals.chapter4.sec3_field;
  * メソッド内でそれぞれ定義した変数の和を表示させるプログラムを作成してください。
  */
 public class No002 {
+	int x = 1;
 
+	static int y = 1;
+
+	static void method() {
+		int i = 1;
+
+
+		System.out.println(x + y + i);
+	}
+	public static void main(String[] args) {
+		method();
+	}
 }
