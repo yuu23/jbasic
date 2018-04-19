@@ -10,9 +10,9 @@ public class No002 {
 
 	static void method() {
 		int i = 1;
+		No002 z = new No002();
 
-
-		System.out.println(x + y + i);
+		System.out.println(z.x + y + i);
 	}
 	public static void main(String[] args) {
 		method();

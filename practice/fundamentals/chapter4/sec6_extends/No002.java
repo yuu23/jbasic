@@ -6,18 +6,34 @@ package fundamentals.chapter4.sec6_extends;
  */
 public class No002 {
 	public static void main(String[] args) {
-		
+		Cat cat = new Cat();
+		cat.setVoice();
+		cat.setName("田中");
+
+		System.out.println(cat.getName());
+		System.out.println(cat.getVoice());
 	}
 }
 
-class Animal {
+class Animal { //スーパークラス
 	String name;
-	
+
 	String getName() {
 		return this.name;
 	}
-	
+
 	void setName(String name) {
 		this.name = name;
+	}
+}
+class Cat extends Animal { // サブクラス
+
+	String voice;
+
+	String getVoice() {
+		return this.voice;
+	}
+	void setVoice() {
+		this.voice = "ニャー";
 	}
 }
