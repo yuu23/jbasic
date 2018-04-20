@@ -19,5 +19,9 @@ class Employee {
 }
 
 class Manager extends Employee {
-	
+	public void getName() {
+	name = "【マネージャー】" + name;
+	System.out.println(name);
+
+	}
 }

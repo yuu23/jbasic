@@ -11,6 +11,7 @@ public class No002 {
 
 class Book {
 	Book() {
+		this("人間失格");
 
 	}
 	Book(String title) {

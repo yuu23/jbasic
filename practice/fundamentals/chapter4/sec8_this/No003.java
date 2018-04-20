@@ -10,6 +10,12 @@ public class No003 {
 }
 
 class Test {
+	Test(){
+		this("Test!!!");
+	}
+	Test(String test){
+		System.out.println(test);
+	}
 	void method() {
 		System.out.println("Test!!!");
 	}
