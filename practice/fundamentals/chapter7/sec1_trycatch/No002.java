@@ -9,10 +9,14 @@ public class No002 {
 		disp(2);
 		disp(3);
 	}
-	
+
 	private static void disp(int no) {
 		int n[] = {1,2,3};
-		
-		System.out.println(n[no]);
+		try {
+			System.out.println(n[no]);
+		}catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("入力値が不正です");
+			return;
+		}
 	}
 }
