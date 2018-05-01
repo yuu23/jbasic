@@ -4,5 +4,13 @@ package fundamentals.chapter4.sec2_class;
  * ※メソッドはつけてもつけなくても良い
  */
 public class No005 {
+	public static void main(String[] args) {
+
+	}
+}
+class Human{
+	String name;
+	int height;
+	int weight;
 
 }
