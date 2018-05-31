@@ -7,6 +7,7 @@ package fundamentals.chapter4.sec6_extends;
 public class No004 {
 	public static void main(String[] args) {
 		BaseBall b = new BaseBall();
+
 		b.setName("陸上");
 		b.setRun("走る");
 		System.out.println(b.getName() + "は" + b.getRun() + "競技だ");
@@ -20,6 +21,7 @@ public class No004 {
 
 	}
 }
+
 class Sports {
 	String name;
 	String run;
@@ -35,8 +37,9 @@ class Sports {
 	}
 	void setRun(String run) {
 		this.run = run;
+	}
 }
-}
+
 class BaseBall extends Sports{
 	String offence;
 	String defense;

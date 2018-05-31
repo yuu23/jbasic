@@ -13,8 +13,8 @@ public class No002 {
 		int[] array = {100,200,300};
 
 		try {
-			if(array)
-			throw new ArrayIndexOutOfBoundsException("<入力された引数>は範囲外です。0~2の値を入れてください。")
+			if(array[0] != 100 || array[1] != 200 || array[2] != 300)
+			throw new ArrayIndexOutOfBoundsException("<入力された引数>は範囲外です。0~2の値を入れてください。");
 			System.out.println(array[3]);
 		}catch(ArrayIndexOutOfBoundsException ae) {
 			System.out.println(ae);
